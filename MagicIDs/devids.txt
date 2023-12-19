@@ -18,7 +18,6 @@
 17,Dummy17,Dummy17@ing.com
 18,Dummy18,Dummy18@ing.com
 19,Dummy19,Dummy19@ing.com
-20,Dummy20,Dummy20@ing.com
 21,Dummy21,Dummy21@ing.com
 22,Dummy22,Dummy22@ing.com
 23,Dummy23,Dummy23@ing.com
@@ -27,4 +26,3 @@
 26,Dummy26,Dummy26@ing.com
 27,Dummy27,Dummy27@ing.com
 28,Dummy28,Dummy28@ing.com
-29,ravindrachougule66,ravindrachougule66@gmail.com
