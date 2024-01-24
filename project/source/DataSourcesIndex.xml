@@ -1,0 +1,32 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="14081.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="6"/>
+
+  <LastIsnFolder val="1"/>
+
+  <Folders>
+    <Folder id="1">
+      <Name val="Memory Tables"/>
+    </Folder>
+  </Folders>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+  
+<DataObject PhysicalName="test" Public="fop" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="1" name="test" offset="322" length="18783"/> 
+<DataObject PhysicalName="lot" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="2" name="lot" offset="19106" length="372"/> 
+<DataObject PhysicalName="WW" Resident="N" UniqueISNConvState="12" data_source="Magix" id="3" name="WW" offset="19479" length="4728"/> 
+<DataObject Resident="N" UniqueISNConvState="12" data_source="Magix" id="6" name="1111111" offset="24208" length="381"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="31074591-31454223"/>  </Application>

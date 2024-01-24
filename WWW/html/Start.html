@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>Magix</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/styles/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  <link href="/styles/print.css" rel="stylesheet" type="text/css" media="print">
+</head>
+<body>
+  <form  autocomplete="off"  id="TestF" class="form-horizontal" action="/MagicScripts/MGrqispi.dll" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="appname" value="Magix">
+    <input type="hidden" name="prgname" id="prgname" value="wwwtest">
+    <input type="hidden" name="ARGUMENTS" value="Mode,WW,WW2,foto,Mail">
+	  <p>[!$MG_OTAP]</p>
+		<p>Referer: [!$MG_Referer]</p>
+		<p>Remote Address: [!$MG_RA]</p>
+		<h1><label class="control-label">Printen</label></h1>
+		<div>
+			<p><button type="submit" value="P" name="Mode">1149 star</button></p>
+		 	<p><button type="button"  value="Test2" onclick="window.location('/MagicScripts/MGrqispi.dll?APPNAME=Magix&PRGNAME=wwwtest2')">Test-2</button> 1190 zebra</p>
+		 	<p><button type="button"  value="Test2" onclick="window.location('/MagicScripts/MGrqispi.dll?	APPNAME=Magix&PRGNAME=wwwtest3')">Test-3</button> 1008 gang</p>
+		</div>
+		
+		<h1><label class="control-label">Mail</label></h1>
+		<button type="submit" value="M" name="Mode">Test-Mail</button>
+		<div  class="col-sm-12"> 
+				<div class="col-sm-4">
+					<label class="control-label  col-sm-2">Mail</label>
+					<input class="form-control" name="Mail" id="Mail" value="[!$MG_Mail]">
+			</div>
+		</div>
+		
+		<h1><label class="control-label">Hashing</label></h1>
+		<button type="submit" value="W" name="Mode">Test-WW </button>
+		<div  class="col-sm-12"> 
+				<div class="col-sm-4">
+					<label class="control-label  col-sm-2">WW</label>
+					<input class="form-control" name="WW" id="WW" value="[!$MG_WW]">
+					<label class="control-label  col-sm-2">Salt</label>
+					<input class="form-control" name="Salt" id="Salt" value="[!$MG_Salt]">
+					<label class="control-label  col-sm-2">Hash</label>
+					<input class="form-control" name="Hash" id="Hash" value="[!$MG_Hash]">
+					<label class="control-label  col-sm-2">WW2</label>
+					<input class="form-control  [!$MG_Kleur]" name="WW2" id="WW2" value="[!$MG_WW2]">
+					<input class="form-control" name="Hash2" id="Hash2" value="[!$MG_Hash2]">
+					<a href="https://www.owasp.org/index.php/Using_Rfc2898DeriveBytes_for_PBKDF2">OWASP</a>
+			</div>
+		</div>
+		<h1><label class="control-label">Foto</label></h1>
+    <input type="file" name="foto" accept="image/*" capture="camera">
+		<button type="submit" value="F" name="Mode" >Test-Foto</button>[!$MG_Top]
+		<!-- [!$MGIF_WijzigR?] -->
+			<img style="width:100px;height:100px;" src="data:image;base64, [!$MG_Plaatje]" alt="plaatje"/>
+    <!-- [!$MGENDIF] WijzigR-->	</form>
+  <div class="fout" id="fout">
+  	<noscript><br>Activeer JavaScript a.u.b.</noscript>
+  </div>
+</body>
+</html>

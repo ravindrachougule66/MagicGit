@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>Magix</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Magix</title>
+  <link href="/styles/print.css" rel="stylesheet" type="text/css" media="print">
+	<style>
+		input {
+			width: 400px;
+		}
+	</style>
+</head>
+<body>
+  <form id="ZoekF" class="form-horizontal" action="/MagicScripts/MGrqispi.dll" method="post" >
+    <input type="hidden" name="appname" value="Magix">
+    <input type="hidden" name="prgname" id="prgname" value="MailTest">
+    <input type="hidden" name="ARGUMENTS" value="Knop, mAdres">
+		<div>
+		<h4>Mailadres van de ontvanger: <input type="text" name="mAdres" id="mAdres" value="[!$MG_mAdres]" autofocus></h4>
+		 <button type="submit" name="Knop" value="Test" >Verstuur</button>
+	<!--		<button type="button"  value="Test" onclick="window.location('/MagicScripts/MGrqispi.dll?APPNAME=Magix&PRGNAME=wwwtest')">Test</button>
+	-->
+		<h3>Resultaat: [!$MG_Resultaat]</h3>
+		</div>
+	</form>
+	<img src="/images/ggd_amsterdam_logo.png" alt=""/>
+	<div class="fout" id="fout">
+		<noscript><br>Activeer JavaScript a.u.b.</noscript>
+	</div>
+	</form>
+</body>
+</html>

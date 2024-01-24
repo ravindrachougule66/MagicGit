@@ -1,0 +1,104 @@
+/* Overiding Bootstrap, echter browsers printen geen achtergronden */
+.panel-default > .panel-heading, .formulier-subonderdeel-kop {
+	border-top: 5px solid #c5e1a5;
+}
+.nietPrinten, .btn {
+	display: none;
+}
+
+/* col-md */
+body {
+  width: 980px !important;
+}
+.scrollDiv, .scrollTopDiv {
+	height: inherit;
+	float: none;
+	overflow:visible;
+	width:auto;
+}
+/* textarea, zie ook: printTextarea() */ 
+pre {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+	white-space:pre-wrap;
+	word-break: keep-all;
+	width:99%;
+}
+body, select, input, pre, textarea, td {
+	font-family: Arial Narrow, Roboto Condensed;
+	font-size: 12px !important;
+	padding-top: 1px !important;
+}
+.tekstPrint pre {
+	padding: 5px;
+	overflow: visible;
+	width: 100%;
+	height: 100%;
+	min-height: 75px;
+	border: 1px solid #999;
+}
+.tekstPrint textarea {
+	display: none;
+	visibility: hidden;
+}
+table, .form-group, .bijeenPrinten {
+	page-break-inside: avoid;
+}
+
+
+/* OUD 
+.knop, .knopImgR, img, .menu{
+	display: none;
+}
+#OpvangDiv {
+	float: left;
+	width: 550px;
+}
+#WachtDiv{
+	float: left;
+	width: 400px;
+}
+#PersonenLijst, #OpvangLijst, #Rapportagemenu, #RapportageBanner, #raporttageTabel{
+	display: none;
+	visibility: hidden;
+}
+#selected td, #selected a {
+	font-weight: normal;
+	text-decoration: underline;
+	background: #CCC;
+}
+.tabknopChecked {
+	background: #FFF;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #000;
+}
+.Flotknop {
+	background: #0F9;
+}
+.Flotknop {
+	background: #0FC;
+}
+.editVeld pre {
+	overflow: visible;
+	width: 450px;
+	height: 100%;
+	min-height: 125px;
+	border: 1px solid #666;
+}
+.aanmeldVeld pre {
+	overflow: visible;
+	height: 100%;
+	width:98%;
+	min-height: 125px;
+	border: 1px solid #666;
+}
+.editVeld textarea, .aanmeldVeld textarea {
+	display: none;
+	visibility: hidden;
+}
+.tekstUitleg p{
+	font-size: 12px;
+}
+*/

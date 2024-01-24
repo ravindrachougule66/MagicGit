@@ -1,0 +1,511 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="14081.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="6"/>
+
+  <LastIsnFolder val="1"/>
+
+  <Folders>
+    <Folder id="1">
+      <Name val="Memory Tables"/>
+    </Folder>
+  </Folders>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+  
+<DataObject PhysicalName="test" Public="fop" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="1" name="test">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="P"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <SchemaDoc val="F:\TrajectusAmsterdam\documentatie\Koppeling\AVATypes_V6+.xsd"/>
+
+  <RootName val="ROOT"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeBuffer val="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"/>
+
+  <Resource/>
+
+  <Resource>
+    <name val="ns0"/>
+    <Comment val="http://schemas.zorgnedbv.nl/AVA/V6/"/>
+  </Resource>
+
+  <SchemaPreFields>
+    <SchemaField FldType="1"/>
+    <SchemaField FldType="1"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="1"/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="15"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="37"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="15"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField FldType="2"/>
+    <SchemaField FldType="2"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="1"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="1"/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="1"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField DataTypeIdx="42"/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="37"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="15"/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="1"/>
+    <SchemaField DataTypeIdx="1"/>
+    <SchemaField/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField DataTypeIdx="6"/>
+    <SchemaField/>
+    <SchemaField/>
+  </SchemaPreFields>
+
+  <ViewFieldsMap>
+    <Field Index="1"/>
+    <Field Index="2"/>
+  </ViewFieldsMap>
+
+  <Columns>
+    <Column id="1" name="NodeId">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53"/>
+        <Picture id="157" valUnicode="12"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="NodeId"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="12"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="NodeId" PIC_U="12" Size="8" allowed_null="N" attribute="N" context_cookies="N" database_definition="2" id="231" storage="6" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="ParentId">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53"/>
+        <Picture id="157" valUnicode="12"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="ParentId"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="12"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="ParentId" PIC_U="12" Size="8" allowed_null="N" attribute="N" context_cookies="N" database_definition="2" id="231" storage="6" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="ByNode">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="ByNode"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="8"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="lot" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="2" name="lot">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="P"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Columns/>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="WW" Resident="N" UniqueISNConvState="12" data_source="Magix" id="3" name="WW">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="1"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <Columns>
+    <Column id="5" name="wwId">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="18"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="18"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="wwId"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="wwId" PIC_U="18" Size="18" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="1" name="wwWachtwoord">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="99"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="99"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="wwWachtwoord"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="wwWachtwoord" PIC_U="99" Size="99" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="wwBlob">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_BLOB" id="1"/>
+        <StoredAs id="173" val="29"/>
+        <Size id="174" val="28"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="wwBlob"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="wwBlob" Size="28" allowed_null="Y" attribute="O" context_cookies="Y" database_definition="1" id="231" storage="29"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="wwHash">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="99"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="99"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="wwHash"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="wwHash" PIC_U="99" Size="99" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="wwSalt">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="99"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="99"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="wwSalt"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="wwSalt" PIC_U="99" Size="99" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="6" name="wwTest">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="99"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="99"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="wwTest"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="wwTest" PIC_U="99" Size="99" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="7" name="wwResult">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="9"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="9"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="wwResult"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="wwResult" PIC_U="9" Size="9" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="Sleutel">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="Sleutel"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="18"/>
+          <Column val="5"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject Resident="N" UniqueISNConvState="12" data_source="Magix" id="6" name="1111111">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="P"/>
+
+  <HasHint val="Y"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <PositionIndex val="-1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns/>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject>  </DataObjects>
+ </DataSourceRepository>
+  </Application>

@@ -1,0 +1,552 @@
+/***********************************
+			TrajectusAmsterdam 2016
+			Overriding Bootstrap
+
+			Colors used:
+		  - Primary   =  #337AB7
+		  - Succes    =  #5CB85C
+		  - Info      =  #5BC0DE
+		  - Warning   =  #F0AD4E
+		  - Danger    =  #D9534F
+
+************************************/
+
+/* Ruimte voor de Scrolbalk in IE & extra ruimte aan de onderkant voor kleine schermen MAAR dat zit mij weer in de weg*/
+body {
+	padding: 0 15px 0 15px;
+}
+
+/* Navbar */
+.navbar {
+	padding: 0 2px;
+}
+.navbar-nav > li + li {
+  margin-left: 2px;
+}
+.navbar-default {
+  background-color: #c5e1a5;
+}
+
+/* Dropdown-menu */
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #d4d4d4;
+	text-decoration: none;
+}
+/* Hamburger links ipv rechts (de andere menuknoppen krijgen een pull-right */
+.navbar-toggle {
+	float: left
+}
+
+/* Panelen en Tabbladen */
+.panel {
+	margin-bottom: 5px;
+}
+.panel-heading {
+	min-height: 45px;
+}
+.panel-default {
+	border-color: #c5e1a5;
+}
+.panel-title {
+	float: left;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.panel-default > .panel-heading {
+	background: #c5e1a5;
+}
+	/* Tabbladen */
+.panel-heading .nav-tabs {
+	margin-bottom: -8px;
+	margin-top: 2px;
+}
+.panel-heading .nav-tabs a {
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	color: #333333;
+}
+	/* Pillen */
+.nav-pills .btn {
+  padding: 3.5px 7px;
+}
+.nav-pills .glyphicon {
+	font-size:19px;
+	top: 2px;
+	width: 25px;
+}
+.knop-letter {
+	width: 25px;
+	font-size: 24px;
+	font-weight: bolder;
+	padding: 0px 2px;
+	display: inline-block;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+/* Knoppen */
+.btn {
+  padding: 6px 12px;
+	font-size: 13px;
+}
+	/* Tekst in knop links */
+.btn-groep-tekst-links button{
+	text-align:left
+}
+
+/* Fieldset */
+fieldset[disabled] .form-control {
+	background-color: #F9F9F9;
+}
+
+div .readonly, label .readonly {
+	background-color: #eee !important;
+}
+
+/* Tabellen */
+.table {
+	margin-bottom: 5px;
+}
+	/* Geen streep tussen regels */
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+	border-top: 0;
+}
+	/* knop in tabel header, o.a. Opvang */
+.btn-sorteer {
+	padding: 0 6px;
+	font-size: inherit;
+	background-color: #c5e1a5;
+	font-weight: bold;
+}
+
+/* input type=file */
+.btn-bestand {
+	line-height: 8px;
+	height: 21px;
+	border: 2px solid #C4C4C4;
+}
+
+/* CheckBox >>> Uitzoeken waarom Bootstrap dit met die rare hack doet <<< */
+.radio input[type='radio'], .radio-inline input[type='radio'], .checkbox input[type='checkbox'], .checkbox-inline input[type='checkbox'] {
+	margin-top: 0px ;
+}
+
+/* Fout */
+.alert-danger {
+	color:#000000;
+	min-height:0px;
+}
+.alert-danger p {
+	margin: 2px 5px;
+}
+/* OTAP */
+.OTAP {
+	font-size: 24px;
+	font-weight: bolder;
+	padding: 0px 20px;
+	display: inline-block;
+	line-height: 1;
+	vertical-align: middle;
+	color: crimson;
+}
+
+/*******************************************/
+/***             Extra                   ***/
+/*******************************************/
+
+/* Geselecteerd */
+	/* !important nodig voor tabellen */
+.selected,
+.selected div,
+.selected a {
+	background-color: #c5e1a5 !important;
+}
+	/* selectie en hover buiten tabellen, o.a. Journaal */
+.zweef:hover,
+.zweef:hover div,
+.zweef:hover a,
+.grijs,
+#grijs {
+	background-color: #E7E7E7 !important;
+}
+.wit,
+#wit {
+	background-color: #FFFFFF !important;
+  cursor: pointer !important;
+}
+.uitgeschakeld {
+	opacity: 0.5;
+}
+
+/* Opvangoverzicht */
+.OpvangOverzichtVul,
+.OpvangOverzichtVul a {
+	background-color: #C5E1A5;
+	color: #000000;
+	font-size: 9px;
+	margin: 0px;
+}
+
+
+/* blockUI */
+#overlay {
+  background-color: rgba(1, 1, 1, 0.7);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+	display: none;
+}
+
+/* Rijtjes links, zie ook main.js */
+.scrollDiv,
+.scrollTopDiv  {
+	overflow-y: auto;
+  position: relative;
+}
+
+/* Journaal */
+.journaalRegel {
+	padding-top: 5px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-color: #c5e1a5;
+	background-color: #F9F9F9;
+}
+.scrollTopDiv .form-group {
+	margin-bottom: 2px;
+}
+.scrollTopDiv .control-label {
+	padding-top: 0px;
+}
+
+/* Fouten regel */
+.fout {
+	color: #FF0000;
+	padding: 2px;
+}
+.fout p {
+	margin: 0;
+}
+
+/* Calendar */
+	/* om alleen nederlandse tekst er in te laten passen zonder geflipper */
+.calendar table {
+	min-width: 220px;
+}
+	/* Hier zit .label van Bootstrap in de weg */
+.calendar .combo .label {
+	color: #000000;
+	font-size: 100%;
+	display:block;
+	z-index: 0;
+}
+	/* Hier zit z-index van Bootstrap in de weg */
+.calendar {
+	z-index: 9;
+}
+
+/* TEXTAREA PRINT */
+.tekstPrint pre {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+/* Onderstaande werkt niet omdat jQuery het dan ook niet kan vinden en vullen voordat het geprint wordt
+	display: none;
+	visibility: hidden;
+*/
+}
+
+/* ZRM in Journaal */
+.ZRM-1 {
+	width: 10px;
+	vertical-align: top;
+	background-color: #DD1E2F;
+	color: #F0F0F0;
+	border-style: none;
+	padding-right: 4px;
+	padding-left: 4px;
+	margin-right: -2px;
+	margin-left: -2px;
+}
+.ZRM-2 {
+	width: 10px;
+	vertical-align: top;
+	background-color: #FF9900;
+	border-style: none;
+	padding-right: 4px;
+	padding-left: 4px;
+	margin-right: -2px;
+	margin-left: -2px;
+}
+.ZRM-3 {
+	width: 10px;
+	vertical-align: top;
+	background-color: #FF0;
+	border-style: none;
+	padding-right: 4px;
+	padding-left: 4px;
+	margin-right: -2px;
+	margin-left: -2px;
+}
+.ZRM-4 {
+	width: 10px;
+	vertical-align: top;
+	border-style: none;
+	background-color: #06F;
+	color: #F0F0F0;
+	padding-right: 4px;
+	padding-left: 4px;
+	margin-right: -2px;
+	margin-left: -2px;
+}
+.ZRM-5{
+	width: 10px;
+	vertical-align: top;
+	border-style: none;
+	background-color: #0C0;
+	padding-right: 4px;
+	padding-left: 4px;
+	margin-right: -2px;
+	margin-left: -2px;
+}
+.ZRM-0 {
+	width: 10px;
+	vertical-align: top;
+	background-color: #F0F0F0;
+	border-style: none;
+	color: #000;
+	padding-right: 4px;
+	padding-left: 4px;
+	margin-right: -2px;
+	margin-left: -2px;
+}
+
+
+/*******************************************/
+/***             TMP                     ***/
+/*******************************************/
+
+
+/* Bootstrap heeft ook een hidden+show maar dan met !important en dat zit in de weg als je het inline weer wilt tonen*/
+.hidden, .verborgen {
+	display: none;
+}
+.toon {
+	display: block;
+}
+.schuin {
+	font-style:italic;
+}
+/*******************************************/
+/***             THIJMEN                 ***/
+/*******************************************/
+
+/* Input fields */
+.form-control.required {
+	background: url('../images/sprites/glyphicons-asterisk.png') no-repeat;
+	background-position: 98% 50%;
+}
+.input-group-addon {
+	min-width: 20px;
+}
+.form-horizontal .control-label-left {
+    text-align: left;
+    margin-bottom: 0;
+    padding-top: 3px;
+}
+
+/* Pointer for checkboxes and radio's */
+.checkbox input[type=checkbox],
+.checkbox-inline input[type=checkbox],
+.radio input[type=radio],
+.radio-inline input[type=radio] {
+	cursor: pointer;
+}
+
+/* Alternate show/hide classes to prevent !important for Bootstrap hidden class */
+.display-none {
+	display: none;
+}
+.display-block {
+	display: block;
+}
+
+/* Alert/info-boxes (align glyphicons to text)*/
+.alert {
+	padding: 5px 15px;
+	margin-bottom: 5px;
+}
+.alert .glyphicon {
+  display: table-cell;
+}
+.alert div {
+  display: table-cell;
+  padding-left: 10px;
+}
+.alert-message p {
+	margin: 0;
+}
+
+/* Kleur van foutmeldingen */
+.has-error .help-block,
+.has-error .input-group-addon,
+.has-error .control-label,
+.has-error co,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+	color: #dd1e2f;
+}
+.has-error .form-control, .has-error .input-group-addon {
+	border-color: #dd1e2f;
+}
+/* Bestand opgeslagen, maar info nog niet in DB, door foutmeldingen*/
+.nogNietInDB input{
+	border-color: #5cb85c;
+}
+/* Aanmeldformulier */
+.panel-aanmeldformulier .panel-heading {
+	border-bottom: 0;
+}
+.panel-aanmeldformulier fieldset {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.panel-aanmeldformulier div.form-control {
+	height: auto;
+}
+.panel-aanmeldformulier div.form-control[readonly] {
+	background-color: #f1f5ed;
+}
+.formulier-onderdeel {
+	clear: both;
+}
+.formulier-onderdeel:first-child {
+	margin-top: -5px;
+}
+.formulier-onderdeel-kop a {
+	color: black
+}
+.formulier-onderdeel-kop {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px 0px;
+	background-color: #c5e1a5;
+}
+.formulier-subonderdeel {
+	margin: 10px 0;
+}
+.formulier-subonderdeel:not(:last-child) {
+	border-bottom: 1px solid #e2e8d9;
+	padding-bottom: 5px;
+}
+.formulier-subonderdeel-kop {
+	padding: 5px 0;
+	margin: 0 0 5px 0;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #f1f5ed;
+}
+.panel-aanmeldformulier .formulier-uitleg {
+	padding: 10px 10px 5px 10px;
+}
+.formulier-uitleg,
+.formulier-toelichting {
+	background-color: #f1f5ed;
+}
+.table-nachtopvang {
+	margin-bottom: 10px;
+}
+.table-nachtopvang>tbody>tr>td {
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+/* Collapse/uitklaptoggle */
+.chevron-toggle,
+.chevron-toggle:active,
+.chevron-toggle:focus,
+.chevron-toggle:hover {
+	text-decoration: none;
+}
+.chevron-toggle:after {
+	font-family: 'Glyphicons Halflings';
+	content: "\e080";
+	float: left;
+	padding-right: 5px;
+}
+.chevron-toggle.collapsed:after {
+	content: "\e114";
+}
+
+/* Popovers */
+.click-popover {
+  cursor: pointer;
+	font-size: 15px;
+	font-weight: 600;
+}
+.popover {
+  max-width: 50%;
+}
+.popover-content ul, .popover-content ol, .popover-content p {
+	margin-bottom: 0;
+}
+
+/* File input */
+.input-group-btn .btn {
+	font-size: 11px;
+  line-height: 1;
+  padding: 4px;
+	background-color: #c5e1a5;
+/* disabled niet tonen */
+	border-color: #ccc;
+	color: #555 !important;
+  cursor: pointer !important;
+	opacity: 1 !important;
+}
+.form-control-file {
+	background-color: #fff;
+}
+.input-group-btn .btn:hover {
+	background-color: #ccc;
+}
+.input-group-btn .btn span {
+	font-size: 9px;
+}
+.btn-bestand {
+  position: relative;
+  overflow: hidden;
+}
+body div img {
+	float: right;
+}
+
+
+@media (max-width: 767px) {
+	.popover {
+		max-width: 80%;
+	}
+}
+.super {
+	font-size:16px;
+	vertical-align: 4px;
+}
