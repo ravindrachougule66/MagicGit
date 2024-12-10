@@ -1,23 +1,22 @@
- <Application>
- 
-<Header>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
 
-  <Version val="14111.00"/>
+  <Header>
+    <Version val="14111.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="1"/>
+    <LastIsnFolder val="0"/>
+  </Header>
 
-  <WithIsn val="Y"/>
+  <DataRepositoryProperties/>
 
-  <Exe comp="-1"/>
+  <DataSourceRepository>
+    <DataObjects>
+      <DataObject PhysicalName="S1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="1048577" length="3377" name="S1" offset="245"/>
+    </DataObjects>
+  </DataSourceRepository>
 
-  <LastIsn val="1"/>
+  <LastModified val="31148789-157721004"/>
 
-  <LastIsnFolder val="0"/>
-
-</Header>
-
-<DataRepositoryProperties/>
- <DataSourceRepository>
-  <DataObjects>
- 
-<DataObject PhysicalName="S1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="1048577" name="S1" offset="228" length="3270"/>  </DataObjects>
- </DataSourceRepository>
- <LastModified val="31148789209775309"/>  </Application>
+</Application>
