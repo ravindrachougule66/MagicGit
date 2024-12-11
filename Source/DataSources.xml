@@ -18,7 +18,6 @@
  <DataSourceRepository>
   <DataObjects>
  
- 
 <DataObject PhysicalName="A" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="1048577" name="A">
 
   <Encrypt val="N"/>
@@ -66,6 +65,18 @@
         <DbColumnName id="178" val="name"/>
         <_Flip id="194"/>
         <_FieldPhysical Name="name" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="1048579" name="add">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="20"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="add"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="add" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
   </Columns>
