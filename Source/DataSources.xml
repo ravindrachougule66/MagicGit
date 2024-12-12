@@ -8,18 +8,15 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="6"/>
+  <LastIsn val="7"/>
 
-  <LastIsnFolder val="1"/>
+  <LastIsnFolder val="2"/>
 
 </Header>
 
 <DataRepositoryProperties/>
  <DataSourceRepository>
-  <DataObjects>
- 
- 
- 
+  <DataObjects>
  
 <DataObject PhysicalName="A" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="1048577" name="A">
 
@@ -130,7 +127,6 @@
   <PositionIndex val="-1"/>
 
   <IndexesLastIsn val="1"/>
-
   <MetaTreeRTIndex val="-1"/>
 
   <Columns>
@@ -219,7 +215,6 @@
   <PositionIndex val="-1"/>
 
   <IndexesLastIsn val="1"/>
-
   <MetaTreeRTIndex val="-1"/>
 
   <Columns>
@@ -281,6 +276,30 @@
         <DbColumnName id="178" val="bal2"/>
         <_Flip id="194"/>
         <_FieldPhysical Name="bal2" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="135266308" name="add1">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="10"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="10"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="add1"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="add1" PIC_U="10" Size="10" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="135266309" name="add2">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="10"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="10"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="add2"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="add2" PIC_U="10" Size="10" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
   </Columns>
