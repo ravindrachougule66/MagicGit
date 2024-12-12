@@ -1,24 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<Application>
+ <Application>
+ 
+<Header>
 
-  <Header>
-    <Version val="14110.00"/>
-    <WithIsn val="Y"/>
-    <Exe comp="-1"/>
-    <LastIsn val="6"/>
-    <LastIsnFolder val="1"/>
-  </Header>
+  <Version val="14110.00"/>
 
-  <DataRepositoryProperties/>
+  <WithIsn val="Y"/>
 
-  <DataSourceRepository>
-    <DataObjects>
-      <DataObject PhysicalName="A" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="1048577" length="2677" name="A" offset="245"/>
-      <DataObject PhysicalName="A" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="68157445" length="2672" name="A" offset="2923"/>
-      <DataObject PhysicalName="A" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="101711878" length="2673" name="A" offset="5596"/>
-    </DataObjects>
-  </DataSourceRepository>
+  <Exe comp="-1"/>
 
-  <LastModified val="31149152162542373"/>
+  <LastIsn val="6"/>
 
-</Application>
+  <LastIsnFolder val="1"/>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+ 
+ 
+ 
+<DataObject PhysicalName="A" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="1048577" name="A" offset="228" length="2677"/> 
+<DataObject PhysicalName="A" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="68157445" name="A" offset="2906" length="2672"/> 
+<DataObject PhysicalName="A" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="101711878" name="A" offset="5579" length="3686"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="31149153-145644882"/>  </Application>
