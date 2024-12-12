@@ -187,6 +187,11 @@
           <Column val="1048577"/>
           <Order val="A"/>
         </Segment>
+		<Segment>
+          <Size val="10"/>
+          <Column val="1048578"/>
+          <Order val="B"/>
+        </Segment>
       </Segments>
     </Index>
   </Indexes>
