@@ -8098,7 +8098,7 @@
   <Columns>
     <Column id="1" name="TS_INDICATIE_NUMMER">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="12"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="2"/>
@@ -8111,7 +8111,7 @@
     </Column>
     <Column id="2" name="TS_SYMBOOL">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="13"/>
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
         <Size id="174" val="4"/>
@@ -8124,7 +8124,7 @@
     </Column>
     <Column id="3" name="TS_OMSCHRIJVING">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="11"/>
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
         <Size id="174" val="28"/>
