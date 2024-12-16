@@ -186,4 +186,4 @@
 <DataObject FolderIsn="95420467" PhysicalName="MIFID_METRICS_DATA_DEFINITION" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1739587821" name="MIFID_METRICS_DATA_DEFINITION" offset="1371526" length="8280"/> 
 <DataObject FolderIsn="95420467" PhysicalName="MIFID_METRICS_DATA_RECORD" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1739587822" name="MIFID_METRICS_DATA_RECORD" offset="1379807" length="6430"/>  </DataObjects>
  </DataSourceRepository>
- <LastModified val="31149942172104452"/>  </Application>
+ <LastModified val="31149942-209431733"/>  </Application>
