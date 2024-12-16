@@ -60,130 +60,130 @@
 <DataObject Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="10" offset="80031" length="442"/> 
 <DataObject PhysicalName="FX_CONTRACTEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="11" name="FX_CONTRACTEN" offset="80474" length="39840"/> 
 <DataObject PhysicalName="GEBLOKKEERDE_POSITIE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="13" name="GEBLOKKEERDE_POSITIE" offset="120315" length="11302"/> 
-<DataObject PhysicalName="GROOTBOEKREKENINGEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="14" name="GROOTBOEKREKENINGEN" offset="131618" length="8561"/> 
-<DataObject PhysicalName="HERKOMSTCODES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="15" name="HERKOMSTCODES" offset="140180" length="10514"/> 
-<DataObject PhysicalName="ITEMKODES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="16" name="ITEMKODES" offset="150695" length="10249"/> 
-<DataObject PhysicalName="KOPPELING_CATEGORIEEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="17" name="KOPPELING_CATEGORIEEN" offset="160945" length="5041"/> 
-<DataObject PhysicalName="KOPPELINGSTABEL_OPTIES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="18" name="KOPPELINGSTABEL_OPTIES" offset="165987" length="2356"/> 
-<DataObject PhysicalName="MF_MUTATIE_FUTURE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="19" name="MF_MUTATIE_FUTURE" offset="168344" length="14115"/> 
-<DataObject PhysicalName="" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="20" name="" offset="182460" length="407"/> 
-<DataObject PhysicalName="OPENSTAANDE_POSTEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="21" name="OPENSTAANDE_POSTEN" offset="182868" length="26777"/> 
-<DataObject PhysicalName="POS_RECALC_INFO" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="22" name="POS_RECALC_INFO" offset="209646" length="14535"/> 
-<DataObject PhysicalName="PROVTABHEADER" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="25" name="PROVTABHEADER" offset="224182" length="21003"/> 
-<DataObject PhysicalName="SCHADUWOPENSTPOSTEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="26" name="SCHADUWOPENSTPOSTEN" offset="245186" length="9126"/> 
-<DataObject PhysicalName="SCHALEN_TABEL" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="27" name="SCHALEN_TABEL" offset="254313" length="6130"/> 
-<DataObject Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="131" offset="260444" length="414"/> 
-<DataObject Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="132" offset="260859" length="414"/> 
-<DataObject PhysicalName="TPC_FINANCIAL_INSTRUMENT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="30" name="TPC_FINANCIAL_INSTRUMENT" offset="261274" length="2364"/> 
-<DataObject PhysicalName="TRANS_BLOCKEDPOSITION_INFO" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="31" name="TRANS_BLOCKEDPOSITION_INFO" offset="263639" length="5239"/> 
-<DataObject PhysicalName="TRANS_KOSTENCOMPONENTEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="32" name="TRANS_KOSTENCOMPONENTEN" offset="268879" length="7124"/> 
-<DataObject PhysicalName="TRANS_MUT_SCHEME" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="33" name="TRANS_MUT_SCHEME" offset="276004" length="5428"/> 
-<DataObject PhysicalName="TRANS_PROCES_CATEGORY" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="34" name="TRANS_PROCES_CATEGORY" offset="281433" length="7008"/> 
-<DataObject PhysicalName="TRANS_TYPE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="35" name="TRANS_TYPE" offset="288442" length="4848"/> 
-<DataObject PhysicalName="TRANS_TYPE_CHECK_GROUPS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="36" name="TRANS_TYPE_CHECK_GROUPS" offset="293291" length="4177"/> 
-<DataObject PhysicalName="TRANS_TYPE_GROUP_COMBINATIONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="37" name="TRANS_TYPE_GROUP_COMBINATIONS" offset="297469" length="4157"/> 
-<DataObject PhysicalName="TRANS_TYPE_GROUPS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="38" name="TRANS_TYPE_GROUPS" offset="301627" length="5049"/> 
-<DataObject PhysicalName="TRANS_VALID_COMBINATIONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="39" name="TRANS_VALID_COMBINATIONS" offset="306677" length="6693"/> 
-<DataObject PhysicalName="TRANS_VALID_TYPE_GROUP_COMB" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="40" name="TRANS_VALID_TYPE_GROUP_COMB" offset="313371" length="4161"/> 
-<DataObject PhysicalName="TRANS_VALID_TYPE_GROUPS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="41" name="TRANS_VALID_TYPE_GROUPS" offset="317533" length="5085"/> 
-<DataObject PhysicalName="TRANSACTIESOORTEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="42" name="TRANSACTIESOORTEN" offset="322619" length="9345"/> 
-<DataObject PhysicalName="TRANSACTION_LOG" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="43" name="TRANSACTION_LOG" offset="331965" length="5799"/> 
-<DataObject PhysicalName="TV_BLST_PER_TRANSSRT_VERTAALD" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="44" name="TV_BLST_PER_TRANSSRT_VERTAALD" offset="337765" length="4694"/> 
-<DataObject PhysicalName="TV_STORNO_REASONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="45" name="TV_STORNO_REASONS" offset="342460" length="4572"/> 
-<DataObject PhysicalName="TV_TRANSACTIONS_IN_PROGRESS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="46" name="TV_TRANSACTIONS_IN_PROGRESS" offset="347033" length="9669"/> 
-<DataObject PhysicalName="TV_TRANSCONNECTION" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="47" name="TV_TRANSCONNECTION" offset="356703" length="4174"/> 
-<DataObject Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="133" offset="360878" length="414"/> 
-<DataObject PhysicalName="EQI_EXERCISECONV" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="50" name="EQI_EXERCISECONV" offset="361293" length="23311"/> 
-<DataObject PhysicalName="TRANS_OMSCHRIJVING" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="52" name="TRANS_OMSCHRIJVING" offset="384605" length="15201"/> 
-<DataObject PhysicalName="TRANSACTIONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="54" name="TRANSACTIONS" offset="399807" length="171376"/> 
-<DataObject PhysicalName="TV_TRIP_REL_ACCOUNT_INFO" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="55" name="TV_TRIP_REL_ACCOUNT_INFO" offset="571184" length="6219"/> 
-<DataObject PhysicalName="TAP_TR_REL_ACCOUNT_INFO" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="57" name="TAP_TR_REL_ACCOUNT_INFO" offset="577404" length="6401"/> 
-<DataObject PhysicalName="AccountPositionsByPeriod" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="58" name="AccountPositionsByPeriod" offset="583806" length="9586"/> 
-<DataObject PhysicalName="TRANSACTIONCURRENCYQUOTES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="85" name="TRANSACTIONCURRENCYQUOTES" offset="593393" length="6383"/> 
-<DataObject PhysicalName="TAP_REYNDERS_FIFO_ADMIN_HEADER" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="142" name="TAP_REYNDERS_FIFO_ADMIN_HEADER" offset="599777" length="3401"/> 
-<DataObject PhysicalName="TAP_REYNDERS_FIFO_ADMIN_DETAIL" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="143" name="TAP_REYNDERS_FIFO_ADMIN_DETAIL" offset="603179" length="3339"/> 
-<DataObject PhysicalName="MEM_TAP_SERVICES" Resident="N" UniqueISNConvState="12" data_source="Memory" id="59" name="MEM_TAP_SERVICES" offset="606519" length="1574"/> 
-<DataObject PhysicalName="MEM_TAP_TRANS_PROC" Resident="N" UniqueISNConvState="12" data_source="Memory" id="75" name="MEM_TAP_TRANS_PROC" offset="608094" length="2037"/> 
-<DataObject PhysicalName="listAccountsSecurityPositionRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="63" name="listAccountsSecurityPosReq" offset="610132" length="9465"/> 
-<DataObject PhysicalName="listAccountsSecurityPositionRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="64" name="lasprq.listItems" offset="619598" length="6082"/> 
-<DataObject PhysicalName="listAccountsSecurityPositionResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="66" name="listAccountsSecurityPosRespons" offset="625681" length="6682"/> 
-<DataObject PhysicalName="POSITION_DATE_DATASET" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="81" name="POSITION_DATE_DATASET" offset="632364" length="5536"/> 
-<DataObject PhysicalName="MEM_CURRENCYPRICES" Resident="N" UniqueISNConvState="12" data_source="Memory" id="86" name="MEM_CURRENCYPRICES" offset="637901" length="5668"/> 
-<DataObject PhysicalName="MEM_DEELTRANSACTIES" Resident="N" UniqueISNConvState="12" data_source="Memory" id="93" name="MEM_DEELTRANSACTIES" offset="643570" length="7096"/> 
-<DataObject PhysicalName="TRANS_CALC_COMPONENTS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="136" name="TRANS_CALC_COMPONENTS" offset="650667" length="11728"/> 
-<DataObject PhysicalName="TRANS_SUBCALC_COMPONENTS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="141" name="TRANS_SUBCALC_COMPONENTS" offset="662396" length="7109"/> 
-<DataObject PhysicalName="updateRegisterMessage.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="140" name="updateRegister" offset="669506" length="3871"/> 
-<DataObject PhysicalName="getTransactionListRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1140850850" name="GetTransactionListRequest" offset="673378" length="30449"/> 
-<DataObject PhysicalName="GetTransactionListRequestType" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1140850851" name="GetTransactionListRequestType" offset="703828" length="6085"/> 
-<DataObject PhysicalName="MER_GENERAL_REPORT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="301990061" name="MER_GENERAL_REPORT" offset="709914" length="14427"/> 
-<DataObject PhysicalName="MUTATIONCODES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1509949626" name="MUTATIONCODES" offset="724342" length="7195"/> 
-<DataObject PhysicalName="transactionInProgressMsg.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1744830652" name="transactionInProgressMsg" offset="731538" length="10567"/> 
-<DataObject PhysicalName="TAXPRODUCTRULES_VW" Resident="D" UniqueISNConvState="12" data_source="ORACLE-SEP" id="2046820542" name="TAXPRODUCTRULES_VW_RES" offset="742106" length="10716"/> 
-<DataObject PhysicalName="PROD_DEDU_DISCOUNT" Resident="D" UniqueISNConvState="12" data_source="ORACLE-SEP" id="2046820544" name="PROD_DEDU_DISCOUNT_RES" offset="752823" length="4039"/> 
-<DataObject PhysicalName="getProductTransactionsByTypeRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1565524163" name="getProdTransByTypeReq" offset="756863" length="11011"/> 
-<DataObject PhysicalName="getProductTransactionsByTypeRequestType" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1565524164" name="getProdTransByTypeReqType" offset="767875" length="4800"/> 
-<DataObject PhysicalName="MEM_BE_ESMA_KOPP" Resident="N" UniqueISNConvState="12" data_source="Memory" id="2018509001" name="MEM_BE_ESMA_KOPP" offset="772676" length="1660"/> 
-<DataObject Comment="/*NB the same structure is used in the ta-project. both datasource-definitons should be adjusted in the same branch/release to work correct.*/&#xD;&#xA;" PhysicalName="MT_MUTATIONCODES_PER_CALCRULE" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1852833995" name="MT_MUTATIONCODES_PER_CALCRULE" offset="774337" length="2427"/> 
-<DataObject PhysicalName="TRANSACTIONHISTORY" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1590689998" name="TRANSACTIONHISTORY" offset="776765" length="5980"/> 
-<DataObject PhysicalName="TAP_POST_ACTION_BATCH" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="271581394" name="TAP_POST_ACTION_BATCH" offset="782746" length="3275"/> 
-<DataObject PhysicalName="MEM_IMPORT_TRANSACTIONS" Resident="N" UniqueISNConvState="12" data_source="Memory" id="137363666" name="MEM_IMPORT_TRANSACTIONS" offset="786022" length="9755"/> 
-<DataObject PhysicalName="MEM_GIOM_EXPORT" Resident="N" UniqueISNConvState="12" data_source="Memory" id="316670170" name="MEM_GIOM_EXPORT" offset="795778" length="9912"/> 
-<DataObject PhysicalName="EXECUTIONBROKER_ENTITY_IDENT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="113246427" name="EXECUTIONBROKER_ENTITY_IDENT" offset="805691" length="3998"/> 
-<DataObject FolderIsn="2" PhysicalName="TAP_BPS_REGISTER_AMOUNT_TYPE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="126" name="TAP_BPS_REGISTER_AMOUNT_TYPE" offset="809690" length="4307"/> 
-<DataObject FolderIsn="2" PhysicalName="TAP_BPS_REGISTER_AMOUNT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="127" name="TAP_BPS_REGISTER_AMOUNT" offset="813998" length="8062"/> 
-<DataObject FolderIsn="2" PhysicalName="TAP_BPS_REGISTER" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="128" name="TAP_BPS_REGISTER" offset="822061" length="20684"/> 
-<DataObject FolderIsn="2" PhysicalName="TAP_BPS_REGISTER_VW01" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="134" name="TAP_BPS_REGISTER_VW01" offset="842746" length="13980"/> 
-<DataObject FolderIsn="2" PhysicalName="MEM_BPS_TAX_BASE_CALC" Resident="N" UniqueISNConvState="12" data_source="Memory" id="135" name="MEM_BPS_TAX_BASE_CALC" offset="856727" length="5772"/> 
-<DataObject FolderIsn="2" PhysicalName="MEM_BPS_FISCAL_DEPOSIT_SPACE" Resident="N" UniqueISNConvState="12" data_source="Memory" id="144" name="MEM_BPS_FISCAL_DEPOSIT_SPACE" offset="862500" length="5672"/> 
-<DataObject FolderIsn="2" PhysicalName="REGISTER_AMOUNT_TYPE_CLASS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="503316628" name="REGISTER_AMOUNT_TYPE_CLASS" offset="868173" length="3169"/> 
-<DataObject FolderIsn="2" PhysicalName="MEM_BPS_FA281.15_TAXBASE" Resident="N" UniqueISNConvState="12" data_source="Memory" id="402653332" name="MEM_BPS_FA281.15_TAXBASE" offset="871343" length="2790"/> 
-<DataObject FolderIsn="2" PhysicalName="MEM_BPS_TELT_PERCENTAGE" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1677721770" name="MEM_BPS_TELT_PERCENTAGE" offset="874134" length="1629"/> 
-<DataObject FolderIsn="2" PhysicalName="getRegisterRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="2113929366" name="getRegisterRequest" offset="875764" length="8036"/> 
-<DataObject FolderIsn="2" PhysicalName="getRegisterResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="2113929367" name="getRegisterResponseRoot" offset="883801" length="5944"/> 
-<DataObject FolderIsn="2" PhysicalName="getRegisterResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="2113929371" name="getRegisterResponse" offset="889746" length="13319"/> 
-<DataObject FolderIsn="2" PhysicalName="getRegisterResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="2113929372" name="getRegisterAmountsResponse" offset="903066" length="8144"/> 
-<DataObject FolderIsn="2" PhysicalName="getFiscalDepositSpaceRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="335544471" name="getFiscalDepositSpaceRequest" offset="911211" length="4280"/> 
-<DataObject FolderIsn="2" PhysicalName="getFiscalDepositSpaceResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="335544472" name="getFiscalDepositSpaceResponse" offset="915492" length="11202"/> 
-<DataObject FolderIsn="1" PhysicalName="MEM_CURRENCYPRICES_NEW" Resident="N" UniqueISNConvState="12" data_source="Memory" id="98" name="MEM_CURRENCYPRICES_NEW" offset="926695" length="13915"/> 
-<DataObject FolderIsn="1" PhysicalName="MEM_STEPS" Resident="N" UniqueISNConvState="12" data_source="Memory" id="129" name="MEM_STEPS" offset="940611" length="6479"/> 
-<DataObject FolderIsn="1" PhysicalName="MEM_FIFO_BUY_MUT_REYNDERSTAX" Resident="N" UniqueISNConvState="12" data_source="Memory" id="138" name="MEM_FIFO_BUY_MUT_REYNDERSTAX" offset="947091" length="15455"/> 
-<DataObject FolderIsn="1" PhysicalName="ALERT_HISTORY_INSTRUMENTS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="145" name="ALERT_HISTORY_INSTRUMENTS" offset="962547" length="7662"/> 
-<DataObject FolderIsn="1" PhysicalName="CONTEXTTRANSACIONTYPES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="146" name="CONTEXTTRANSACIONTYPES" offset="970210" length="4155"/> 
-<DataObject FolderIsn="872415235" PhysicalName="getCalculationRulesRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="872415380" name="getCalcRulesRequest" offset="974366" length="5468"/> 
-<DataObject FolderIsn="872415235" PhysicalName="getCalculationRulesRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="872415381" name="getCalcRulesRequestExclTypes" offset="979835" length="4646"/> 
-<DataObject FolderIsn="872415235" PhysicalName="getCalculationRulesResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="872415382" name="getCalcRulesResponseRoot" offset="984482" length="7465"/> 
-<DataObject FolderIsn="872415235" PhysicalName="getCalculationRulesResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="872415386" name="getCalcRulesResponse" offset="991948" length="12264"/> 
-<DataObject FolderIsn="1879048205" PhysicalName="reverseTransactionRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1879048356" name="reverseTransactionRequest" offset="1004213" length="8127"/> 
-<DataObject FolderIsn="1879048205" PhysicalName="reverseTransactionResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1879048357" name="reverseTransactionResponse" offset="1012341" length="5838"/> 
-<DataObject FolderIsn="1879048205" PhysicalName="reverseTransactionResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1879048358" name="reverseTransactionResponses" offset="1018180" length="6767"/> 
-<DataObject FolderIsn="1879048205" PhysicalName="reverseTransactionResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1879048359" name="reverseTransactionRespParms" offset="1024948" length="9884"/> 
-<DataObject FolderIsn="1509949468" PhysicalName="POSMUTTRANSDATUM" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="24" name="POSMUTTRANSDATUM" offset="1034833" length="35043"/> 
-<DataObject FolderIsn="1509949468" PhysicalName="POSITIEMUTATIES_GELD" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="23" name="POSITIEMUTATIES_GELD" offset="1069877" length="24663"/> 
-<DataObject FolderIsn="1509949468" PhysicalName="BANK_CASH_BALANCE_MUTATIONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="268435627" name="BANK_CASH_BALANCE_MUTATIONS" offset="1094541" length="15135"/> 
-<DataObject FolderIsn="1509949468" PhysicalName="BANK_CASH_BALANCES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="268435628" name="BANK_CASH_BALANCES" offset="1109677" length="6903"/> 
-<DataObject FolderIsn="1509949468" PhysicalName="TAP_RECALC_INFO" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1275068591" name="TAP_RECALC_INFO" offset="1116581" length="5257"/> 
-<DataObject FolderIsn="1509949469" PhysicalName="HISTORIC_TRANSACTIONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="369098933" name="HISTORIC_TRANSACTIONS" offset="1121839" length="22613"/> 
-<DataObject FolderIsn="1957691427" PhysicalName="TransferSetting.json" Resident="N" UniqueISNConvState="12" data_source="JSON-SEP" id="1957691589" name="TransferSetting" offset="1144453" length="1686"/> 
-<DataObject FolderIsn="1957691427" PhysicalName="TransferSettingNew.json" Resident="N" UniqueISNConvState="12" data_source="JSON-SEP" id="845152471" name="TransferSettingNew" offset="1146140" length="1990"/> 
-<DataObject FolderIsn="1344274475" PhysicalName="VAT_TRANSACTION" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1344274641" name="VAT_TRANSACTION" offset="1148131" length="8219"/> 
-<DataObject FolderIsn="1344274475" PhysicalName="VAT_INVOICE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1344274642" name="VAT_INVOICE" offset="1156351" length="11614"/> 
-<DataObject FolderIsn="1344274475" PhysicalName="VAT_INVOICE_LINE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1344274643" name="VAT_INVOICE_LINE" offset="1167966" length="10087"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_TRANS_WB" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1342177430" name="MIFID_TRANS_WB" offset="1178054" length="25655"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_INSTRUMENT_WB" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1778385060" name="MIFID_INSTRUMENT_WB" offset="1203710" length="8527"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_HOLDER_WB" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1342177431" name="MIFID_HOLDER_WB" offset="1212238" length="16330"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_TRANSACTIONREPORT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="363856094" name="MIFID_TRANSACTIONREPORT" offset="1228569" length="41172"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_TRANSREPORT_HOLDER" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="363856095" name="MIFID_TRANSREPORT_HOLDER" offset="1269742" length="19926"/> 
-<DataObject Comment="/*Construct to connect the two transactions involved in the transfer of securities from/to a customer bank-acount to an external bank-account. The internal bank acounts involved will be omitted from the transactionreporting. */" FolderIsn="95420467" PhysicalName="TRANSACTIONSET" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="900727011" name="TRANSACTIONSET" offset="1289669" length="9026"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_REPORT_STATUS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1001390308" name="MIFID_REPORT_STATUS" offset="1298696" length="4377"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_TRANSREPORT_STATUS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1001390309" name="MIFID_TRANSREPORT_STATUS" offset="1303074" length="7399"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_DOCUMENT_TYPE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1773142249" name="MIFID_DOCUMENT_TYPE" offset="1310474" length="4307"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_DOCUMENT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1773142250" name="MIFID_DOCUMENT" offset="1314782" length="19561"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_DOC_RESPONSE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1773142251" name="MIFID_DOC_RESPONSE" offset="1334344" length="16090"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_ERROR" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1773142252" name="MIFID_ERROR" offset="1350435" length="4728"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_REPORT_ERROR" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1773142253" name="MIFID_REPORT_ERROR" offset="1355164" length="8363"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_METRICS_CATEGORY" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1739587819" name="MIFID_METRICS_CATEGORY" offset="1363528" length="3206"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_METRICS_TYPE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1739587820" name="MIFID_METRICS_TYPE" offset="1366735" length="4790"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_METRICS_DATA_DEFINITION" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1739587821" name="MIFID_METRICS_DATA_DEFINITION" offset="1371526" length="8280"/> 
-<DataObject FolderIsn="95420467" PhysicalName="MIFID_METRICS_DATA_RECORD" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1739587822" name="MIFID_METRICS_DATA_RECORD" offset="1379807" length="6430"/>  </DataObjects>
+<DataObject PhysicalName="GROOTBOEKREKENINGEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="14" name="GROOTBOEKREKENINGEN" offset="131618" length="8535"/> 
+<DataObject PhysicalName="HERKOMSTCODES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="15" name="HERKOMSTCODES" offset="140154" length="10514"/> 
+<DataObject PhysicalName="ITEMKODES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="16" name="ITEMKODES" offset="150669" length="10249"/> 
+<DataObject PhysicalName="KOPPELING_CATEGORIEEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="17" name="KOPPELING_CATEGORIEEN" offset="160919" length="5041"/> 
+<DataObject PhysicalName="KOPPELINGSTABEL_OPTIES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="18" name="KOPPELINGSTABEL_OPTIES" offset="165961" length="2356"/> 
+<DataObject PhysicalName="MF_MUTATIE_FUTURE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="19" name="MF_MUTATIE_FUTURE" offset="168318" length="14115"/> 
+<DataObject PhysicalName="" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="20" name="" offset="182434" length="407"/> 
+<DataObject PhysicalName="OPENSTAANDE_POSTEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="21" name="OPENSTAANDE_POSTEN" offset="182842" length="26777"/> 
+<DataObject PhysicalName="POS_RECALC_INFO" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="22" name="POS_RECALC_INFO" offset="209620" length="14535"/> 
+<DataObject PhysicalName="PROVTABHEADER" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="25" name="PROVTABHEADER" offset="224156" length="21003"/> 
+<DataObject PhysicalName="SCHADUWOPENSTPOSTEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="26" name="SCHADUWOPENSTPOSTEN" offset="245160" length="9126"/> 
+<DataObject PhysicalName="SCHALEN_TABEL" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="27" name="SCHALEN_TABEL" offset="254287" length="6130"/> 
+<DataObject Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="131" offset="260418" length="414"/> 
+<DataObject Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="132" offset="260833" length="414"/> 
+<DataObject PhysicalName="TPC_FINANCIAL_INSTRUMENT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="30" name="TPC_FINANCIAL_INSTRUMENT" offset="261248" length="2364"/> 
+<DataObject PhysicalName="TRANS_BLOCKEDPOSITION_INFO" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="31" name="TRANS_BLOCKEDPOSITION_INFO" offset="263613" length="5239"/> 
+<DataObject PhysicalName="TRANS_KOSTENCOMPONENTEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="32" name="TRANS_KOSTENCOMPONENTEN" offset="268853" length="7124"/> 
+<DataObject PhysicalName="TRANS_MUT_SCHEME" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="33" name="TRANS_MUT_SCHEME" offset="275978" length="5428"/> 
+<DataObject PhysicalName="TRANS_PROCES_CATEGORY" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="34" name="TRANS_PROCES_CATEGORY" offset="281407" length="7008"/> 
+<DataObject PhysicalName="TRANS_TYPE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="35" name="TRANS_TYPE" offset="288416" length="4848"/> 
+<DataObject PhysicalName="TRANS_TYPE_CHECK_GROUPS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="36" name="TRANS_TYPE_CHECK_GROUPS" offset="293265" length="4177"/> 
+<DataObject PhysicalName="TRANS_TYPE_GROUP_COMBINATIONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="37" name="TRANS_TYPE_GROUP_COMBINATIONS" offset="297443" length="4157"/> 
+<DataObject PhysicalName="TRANS_TYPE_GROUPS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="38" name="TRANS_TYPE_GROUPS" offset="301601" length="5049"/> 
+<DataObject PhysicalName="TRANS_VALID_COMBINATIONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="39" name="TRANS_VALID_COMBINATIONS" offset="306651" length="6693"/> 
+<DataObject PhysicalName="TRANS_VALID_TYPE_GROUP_COMB" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="40" name="TRANS_VALID_TYPE_GROUP_COMB" offset="313345" length="4161"/> 
+<DataObject PhysicalName="TRANS_VALID_TYPE_GROUPS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="41" name="TRANS_VALID_TYPE_GROUPS" offset="317507" length="5085"/> 
+<DataObject PhysicalName="TRANSACTIESOORTEN" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="42" name="TRANSACTIESOORTEN" offset="322593" length="9345"/> 
+<DataObject PhysicalName="TRANSACTION_LOG" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="43" name="TRANSACTION_LOG" offset="331939" length="5799"/> 
+<DataObject PhysicalName="TV_BLST_PER_TRANSSRT_VERTAALD" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="44" name="TV_BLST_PER_TRANSSRT_VERTAALD" offset="337739" length="4694"/> 
+<DataObject PhysicalName="TV_STORNO_REASONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="45" name="TV_STORNO_REASONS" offset="342434" length="4572"/> 
+<DataObject PhysicalName="TV_TRANSACTIONS_IN_PROGRESS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="46" name="TV_TRANSACTIONS_IN_PROGRESS" offset="347007" length="9669"/> 
+<DataObject PhysicalName="TV_TRANSCONNECTION" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="47" name="TV_TRANSCONNECTION" offset="356677" length="4174"/> 
+<DataObject Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="133" offset="360852" length="414"/> 
+<DataObject PhysicalName="EQI_EXERCISECONV" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="50" name="EQI_EXERCISECONV" offset="361267" length="23311"/> 
+<DataObject PhysicalName="TRANS_OMSCHRIJVING" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="52" name="TRANS_OMSCHRIJVING" offset="384579" length="15201"/> 
+<DataObject PhysicalName="TRANSACTIONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="54" name="TRANSACTIONS" offset="399781" length="171376"/> 
+<DataObject PhysicalName="TV_TRIP_REL_ACCOUNT_INFO" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="55" name="TV_TRIP_REL_ACCOUNT_INFO" offset="571158" length="6219"/> 
+<DataObject PhysicalName="TAP_TR_REL_ACCOUNT_INFO" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="57" name="TAP_TR_REL_ACCOUNT_INFO" offset="577378" length="6401"/> 
+<DataObject PhysicalName="AccountPositionsByPeriod" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="58" name="AccountPositionsByPeriod" offset="583780" length="9586"/> 
+<DataObject PhysicalName="TRANSACTIONCURRENCYQUOTES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="85" name="TRANSACTIONCURRENCYQUOTES" offset="593367" length="6383"/> 
+<DataObject PhysicalName="TAP_REYNDERS_FIFO_ADMIN_HEADER" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="142" name="TAP_REYNDERS_FIFO_ADMIN_HEADER" offset="599751" length="3401"/> 
+<DataObject PhysicalName="TAP_REYNDERS_FIFO_ADMIN_DETAIL" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="143" name="TAP_REYNDERS_FIFO_ADMIN_DETAIL" offset="603153" length="3339"/> 
+<DataObject PhysicalName="MEM_TAP_SERVICES" Resident="N" UniqueISNConvState="12" data_source="Memory" id="59" name="MEM_TAP_SERVICES" offset="606493" length="1574"/> 
+<DataObject PhysicalName="MEM_TAP_TRANS_PROC" Resident="N" UniqueISNConvState="12" data_source="Memory" id="75" name="MEM_TAP_TRANS_PROC" offset="608068" length="2037"/> 
+<DataObject PhysicalName="listAccountsSecurityPositionRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="63" name="listAccountsSecurityPosReq" offset="610106" length="9465"/> 
+<DataObject PhysicalName="listAccountsSecurityPositionRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="64" name="lasprq.listItems" offset="619572" length="6082"/> 
+<DataObject PhysicalName="listAccountsSecurityPositionResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="66" name="listAccountsSecurityPosRespons" offset="625655" length="6682"/> 
+<DataObject PhysicalName="POSITION_DATE_DATASET" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="81" name="POSITION_DATE_DATASET" offset="632338" length="5536"/> 
+<DataObject PhysicalName="MEM_CURRENCYPRICES" Resident="N" UniqueISNConvState="12" data_source="Memory" id="86" name="MEM_CURRENCYPRICES" offset="637875" length="5668"/> 
+<DataObject PhysicalName="MEM_DEELTRANSACTIES" Resident="N" UniqueISNConvState="12" data_source="Memory" id="93" name="MEM_DEELTRANSACTIES" offset="643544" length="7096"/> 
+<DataObject PhysicalName="TRANS_CALC_COMPONENTS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="136" name="TRANS_CALC_COMPONENTS" offset="650641" length="11728"/> 
+<DataObject PhysicalName="TRANS_SUBCALC_COMPONENTS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="141" name="TRANS_SUBCALC_COMPONENTS" offset="662370" length="7109"/> 
+<DataObject PhysicalName="updateRegisterMessage.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="140" name="updateRegister" offset="669480" length="3871"/> 
+<DataObject PhysicalName="getTransactionListRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1140850850" name="GetTransactionListRequest" offset="673352" length="30449"/> 
+<DataObject PhysicalName="GetTransactionListRequestType" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1140850851" name="GetTransactionListRequestType" offset="703802" length="6085"/> 
+<DataObject PhysicalName="MER_GENERAL_REPORT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="301990061" name="MER_GENERAL_REPORT" offset="709888" length="14427"/> 
+<DataObject PhysicalName="MUTATIONCODES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1509949626" name="MUTATIONCODES" offset="724316" length="7195"/> 
+<DataObject PhysicalName="transactionInProgressMsg.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1744830652" name="transactionInProgressMsg" offset="731512" length="10567"/> 
+<DataObject PhysicalName="TAXPRODUCTRULES_VW" Resident="D" UniqueISNConvState="12" data_source="ORACLE-SEP" id="2046820542" name="TAXPRODUCTRULES_VW_RES" offset="742080" length="10716"/> 
+<DataObject PhysicalName="PROD_DEDU_DISCOUNT" Resident="D" UniqueISNConvState="12" data_source="ORACLE-SEP" id="2046820544" name="PROD_DEDU_DISCOUNT_RES" offset="752797" length="4039"/> 
+<DataObject PhysicalName="getProductTransactionsByTypeRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1565524163" name="getProdTransByTypeReq" offset="756837" length="11011"/> 
+<DataObject PhysicalName="getProductTransactionsByTypeRequestType" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1565524164" name="getProdTransByTypeReqType" offset="767849" length="4800"/> 
+<DataObject PhysicalName="MEM_BE_ESMA_KOPP" Resident="N" UniqueISNConvState="12" data_source="Memory" id="2018509001" name="MEM_BE_ESMA_KOPP" offset="772650" length="1660"/> 
+<DataObject Comment="/*NB the same structure is used in the ta-project. both datasource-definitons should be adjusted in the same branch/release to work correct.*/&#xD;&#xA;" PhysicalName="MT_MUTATIONCODES_PER_CALCRULE" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1852833995" name="MT_MUTATIONCODES_PER_CALCRULE" offset="774311" length="2427"/> 
+<DataObject PhysicalName="TRANSACTIONHISTORY" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1590689998" name="TRANSACTIONHISTORY" offset="776739" length="5980"/> 
+<DataObject PhysicalName="TAP_POST_ACTION_BATCH" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="271581394" name="TAP_POST_ACTION_BATCH" offset="782720" length="3275"/> 
+<DataObject PhysicalName="MEM_IMPORT_TRANSACTIONS" Resident="N" UniqueISNConvState="12" data_source="Memory" id="137363666" name="MEM_IMPORT_TRANSACTIONS" offset="785996" length="9755"/> 
+<DataObject PhysicalName="MEM_GIOM_EXPORT" Resident="N" UniqueISNConvState="12" data_source="Memory" id="316670170" name="MEM_GIOM_EXPORT" offset="795752" length="9912"/> 
+<DataObject PhysicalName="EXECUTIONBROKER_ENTITY_IDENT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="113246427" name="EXECUTIONBROKER_ENTITY_IDENT" offset="805665" length="3998"/> 
+<DataObject FolderIsn="2" PhysicalName="TAP_BPS_REGISTER_AMOUNT_TYPE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="126" name="TAP_BPS_REGISTER_AMOUNT_TYPE" offset="809664" length="4307"/> 
+<DataObject FolderIsn="2" PhysicalName="TAP_BPS_REGISTER_AMOUNT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="127" name="TAP_BPS_REGISTER_AMOUNT" offset="813972" length="8062"/> 
+<DataObject FolderIsn="2" PhysicalName="TAP_BPS_REGISTER" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="128" name="TAP_BPS_REGISTER" offset="822035" length="20684"/> 
+<DataObject FolderIsn="2" PhysicalName="TAP_BPS_REGISTER_VW01" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="134" name="TAP_BPS_REGISTER_VW01" offset="842720" length="13980"/> 
+<DataObject FolderIsn="2" PhysicalName="MEM_BPS_TAX_BASE_CALC" Resident="N" UniqueISNConvState="12" data_source="Memory" id="135" name="MEM_BPS_TAX_BASE_CALC" offset="856701" length="5772"/> 
+<DataObject FolderIsn="2" PhysicalName="MEM_BPS_FISCAL_DEPOSIT_SPACE" Resident="N" UniqueISNConvState="12" data_source="Memory" id="144" name="MEM_BPS_FISCAL_DEPOSIT_SPACE" offset="862474" length="5672"/> 
+<DataObject FolderIsn="2" PhysicalName="REGISTER_AMOUNT_TYPE_CLASS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="503316628" name="REGISTER_AMOUNT_TYPE_CLASS" offset="868147" length="3169"/> 
+<DataObject FolderIsn="2" PhysicalName="MEM_BPS_FA281.15_TAXBASE" Resident="N" UniqueISNConvState="12" data_source="Memory" id="402653332" name="MEM_BPS_FA281.15_TAXBASE" offset="871317" length="2790"/> 
+<DataObject FolderIsn="2" PhysicalName="MEM_BPS_TELT_PERCENTAGE" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1677721770" name="MEM_BPS_TELT_PERCENTAGE" offset="874108" length="1629"/> 
+<DataObject FolderIsn="2" PhysicalName="getRegisterRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="2113929366" name="getRegisterRequest" offset="875738" length="8036"/> 
+<DataObject FolderIsn="2" PhysicalName="getRegisterResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="2113929367" name="getRegisterResponseRoot" offset="883775" length="5944"/> 
+<DataObject FolderIsn="2" PhysicalName="getRegisterResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="2113929371" name="getRegisterResponse" offset="889720" length="13319"/> 
+<DataObject FolderIsn="2" PhysicalName="getRegisterResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="2113929372" name="getRegisterAmountsResponse" offset="903040" length="8144"/> 
+<DataObject FolderIsn="2" PhysicalName="getFiscalDepositSpaceRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="335544471" name="getFiscalDepositSpaceRequest" offset="911185" length="4280"/> 
+<DataObject FolderIsn="2" PhysicalName="getFiscalDepositSpaceResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="335544472" name="getFiscalDepositSpaceResponse" offset="915466" length="11202"/> 
+<DataObject FolderIsn="1" PhysicalName="MEM_CURRENCYPRICES_NEW" Resident="N" UniqueISNConvState="12" data_source="Memory" id="98" name="MEM_CURRENCYPRICES_NEW" offset="926669" length="13915"/> 
+<DataObject FolderIsn="1" PhysicalName="MEM_STEPS" Resident="N" UniqueISNConvState="12" data_source="Memory" id="129" name="MEM_STEPS" offset="940585" length="6479"/> 
+<DataObject FolderIsn="1" PhysicalName="MEM_FIFO_BUY_MUT_REYNDERSTAX" Resident="N" UniqueISNConvState="12" data_source="Memory" id="138" name="MEM_FIFO_BUY_MUT_REYNDERSTAX" offset="947065" length="15455"/> 
+<DataObject FolderIsn="1" PhysicalName="ALERT_HISTORY_INSTRUMENTS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="145" name="ALERT_HISTORY_INSTRUMENTS" offset="962521" length="7662"/> 
+<DataObject FolderIsn="1" PhysicalName="CONTEXTTRANSACIONTYPES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="146" name="CONTEXTTRANSACIONTYPES" offset="970184" length="4155"/> 
+<DataObject FolderIsn="872415235" PhysicalName="getCalculationRulesRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="872415380" name="getCalcRulesRequest" offset="974340" length="5468"/> 
+<DataObject FolderIsn="872415235" PhysicalName="getCalculationRulesRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="872415381" name="getCalcRulesRequestExclTypes" offset="979809" length="4646"/> 
+<DataObject FolderIsn="872415235" PhysicalName="getCalculationRulesResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="872415382" name="getCalcRulesResponseRoot" offset="984456" length="7465"/> 
+<DataObject FolderIsn="872415235" PhysicalName="getCalculationRulesResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="872415386" name="getCalcRulesResponse" offset="991922" length="12264"/> 
+<DataObject FolderIsn="1879048205" PhysicalName="reverseTransactionRequest.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1879048356" name="reverseTransactionRequest" offset="1004187" length="8127"/> 
+<DataObject FolderIsn="1879048205" PhysicalName="reverseTransactionResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1879048357" name="reverseTransactionResponse" offset="1012315" length="5838"/> 
+<DataObject FolderIsn="1879048205" PhysicalName="reverseTransactionResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1879048358" name="reverseTransactionResponses" offset="1018154" length="6767"/> 
+<DataObject FolderIsn="1879048205" PhysicalName="reverseTransactionResponse.xml" Resident="N" UniqueISNConvState="12" data_source="XML-SEP" id="1879048359" name="reverseTransactionRespParms" offset="1024922" length="9884"/> 
+<DataObject FolderIsn="1509949468" PhysicalName="POSMUTTRANSDATUM" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="24" name="POSMUTTRANSDATUM" offset="1034807" length="35043"/> 
+<DataObject FolderIsn="1509949468" PhysicalName="POSITIEMUTATIES_GELD" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="23" name="POSITIEMUTATIES_GELD" offset="1069851" length="24663"/> 
+<DataObject FolderIsn="1509949468" PhysicalName="BANK_CASH_BALANCE_MUTATIONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="268435627" name="BANK_CASH_BALANCE_MUTATIONS" offset="1094515" length="15135"/> 
+<DataObject FolderIsn="1509949468" PhysicalName="BANK_CASH_BALANCES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="268435628" name="BANK_CASH_BALANCES" offset="1109651" length="6903"/> 
+<DataObject FolderIsn="1509949468" PhysicalName="TAP_RECALC_INFO" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1275068591" name="TAP_RECALC_INFO" offset="1116555" length="5257"/> 
+<DataObject FolderIsn="1509949469" PhysicalName="HISTORIC_TRANSACTIONS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="369098933" name="HISTORIC_TRANSACTIONS" offset="1121813" length="22613"/> 
+<DataObject FolderIsn="1957691427" PhysicalName="TransferSetting.json" Resident="N" UniqueISNConvState="12" data_source="JSON-SEP" id="1957691589" name="TransferSetting" offset="1144427" length="1686"/> 
+<DataObject FolderIsn="1957691427" PhysicalName="TransferSettingNew.json" Resident="N" UniqueISNConvState="12" data_source="JSON-SEP" id="845152471" name="TransferSettingNew" offset="1146114" length="1990"/> 
+<DataObject FolderIsn="1344274475" PhysicalName="VAT_TRANSACTION" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1344274641" name="VAT_TRANSACTION" offset="1148105" length="8219"/> 
+<DataObject FolderIsn="1344274475" PhysicalName="VAT_INVOICE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1344274642" name="VAT_INVOICE" offset="1156325" length="11614"/> 
+<DataObject FolderIsn="1344274475" PhysicalName="VAT_INVOICE_LINE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1344274643" name="VAT_INVOICE_LINE" offset="1167940" length="10087"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_TRANS_WB" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1342177430" name="MIFID_TRANS_WB" offset="1178028" length="25655"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_INSTRUMENT_WB" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1778385060" name="MIFID_INSTRUMENT_WB" offset="1203684" length="8527"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_HOLDER_WB" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1342177431" name="MIFID_HOLDER_WB" offset="1212212" length="16330"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_TRANSACTIONREPORT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="363856094" name="MIFID_TRANSACTIONREPORT" offset="1228543" length="41172"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_TRANSREPORT_HOLDER" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="363856095" name="MIFID_TRANSREPORT_HOLDER" offset="1269716" length="19926"/> 
+<DataObject Comment="/*Construct to connect the two transactions involved in the transfer of securities from/to a customer bank-acount to an external bank-account. The internal bank acounts involved will be omitted from the transactionreporting. */" FolderIsn="95420467" PhysicalName="TRANSACTIONSET" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="900727011" name="TRANSACTIONSET" offset="1289643" length="9026"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_REPORT_STATUS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1001390308" name="MIFID_REPORT_STATUS" offset="1298670" length="4377"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_TRANSREPORT_STATUS" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1001390309" name="MIFID_TRANSREPORT_STATUS" offset="1303048" length="7399"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_DOCUMENT_TYPE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1773142249" name="MIFID_DOCUMENT_TYPE" offset="1310448" length="4307"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_DOCUMENT" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1773142250" name="MIFID_DOCUMENT" offset="1314756" length="19561"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_DOC_RESPONSE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1773142251" name="MIFID_DOC_RESPONSE" offset="1334318" length="16090"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_ERROR" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1773142252" name="MIFID_ERROR" offset="1350409" length="4728"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_REPORT_ERROR" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1773142253" name="MIFID_REPORT_ERROR" offset="1355138" length="8363"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_METRICS_CATEGORY" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1739587819" name="MIFID_METRICS_CATEGORY" offset="1363502" length="3206"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_METRICS_TYPE" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1739587820" name="MIFID_METRICS_TYPE" offset="1366709" length="4790"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_METRICS_DATA_DEFINITION" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1739587821" name="MIFID_METRICS_DATA_DEFINITION" offset="1371500" length="8280"/> 
+<DataObject FolderIsn="95420467" PhysicalName="MIFID_METRICS_DATA_RECORD" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1739587822" name="MIFID_METRICS_DATA_RECORD" offset="1379781" length="6430"/>  </DataObjects>
  </DataSourceRepository>
- <LastModified val="31149942172104452"/>  </Application>
+ <LastModified val="3114994424221995"/>  </Application>

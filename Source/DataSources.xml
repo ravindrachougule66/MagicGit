@@ -3159,12 +3159,12 @@
         <DbColumnName id="178" val="GB_REKENINGNUMMER"/>
         <Type id="179" val="VARCHAR2(12)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="GB_REKENINGNUMMER" PIC_U="U12" Size="12" SqlType="VARCHAR2(12)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="GB_REKENINGNUMMER" Size="12" SqlType="VARCHAR2(12)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="2" name="GB_OMSCHRIJVING">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="11"/>
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
         <Size id="174" val="28"/>
@@ -3172,7 +3172,8 @@
         <DbColumnName id="178" val="GB_OMSCHRIJVING"/>
         <Type id="179" val="VARCHAR2(28)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="GB_OMSCHRIJVING" PIC_U="28" Size="28" SqlType="VARCHAR2(28)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="GB_OMSCHRIJVING" Size="28" SqlType="VARCHAR2(28)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
     <Column id="3" name="GB_MUNTSOORT">
@@ -3185,7 +3186,7 @@
         <DbColumnName id="178" val="GB_MUNTSOORT"/>
         <Type id="179" val="VARCHAR2(4)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="GB_MUNTSOORT" PIC_U="U4" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="GB_MUNTSOORT" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="4" name="GB_VERDICHTEN">
@@ -3234,7 +3235,7 @@
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="GB_UPDATE"/>
         <Type id="179" val="CHAR(8)"/>
-        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="GB_UPDATE" PIC_U="DD/MM/YYYYZ" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="GB_UPDATE" PIC_U="##/##/####" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="7" name="GB_PREV_UPDATE">
@@ -3246,7 +3247,7 @@
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="GB_PREV_UPDATE"/>
         <Type id="179" val="CHAR(8)"/>
-        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="GB_PREV_UPDATE" PIC_U="DD/MM/YYYYZ" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="GB_PREV_UPDATE" PIC_U="##/##/####" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="8" name="GB_EXPORT">
@@ -3277,7 +3278,7 @@
         <DbColumnName id="178" val="GB_KOSTENPLAATS"/>
         <Type id="179" val="VARCHAR2(12)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="GB_KOSTENPLAATS" PIC_U="U12" Size="12" SqlType="VARCHAR2(12)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="GB_KOSTENPLAATS" Size="12" SqlType="VARCHAR2(12)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
   </Columns>
